@@ -43,6 +43,7 @@ public final class IocHelper {
                             Object beanFieldInstalce = beanMap.get(beanFieldClass);
                             if (beanFieldInstalce != null) {
                                 ReflectionUtil.setField(beanInstance, beanField, beanFieldInstalce);
+                                //TODO 测试git提交是否成功
                             }
                         }
                     }

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d289ad4-226c-42b0-9b46-b38ec5b77819" name="Default Changelist" comment="" />
+    <list default="true" id="9d289ad4-226c-42b0-9b46-b38ec5b77819" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/rpc/target/" />
     <ignored path="$PROJECT_DIR$/demo1/target/" />
     <ignored path="$PROJECT_DIR$/handwritten-mvc-framwork/target/" />
+    <ignored path=".idea/vcs.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/helper/IocHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="39" column="60" lean-forward="true" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+            <state relative-caret-position="167">
+              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,6 +84,9 @@
       <find>resources.jar</find>
       <find>diskLoader</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -179,6 +186,7 @@
     <option name="width" value="1132" />
     <option name="height" value="1052" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -210,53 +218,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="handwritten-mvc-framwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="handwritten-mvc-framwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="handwritten-mvc-framwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whz" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="handwritten-mvc-framwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whz" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="handwritten-mvc-framwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whz" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -265,6 +226,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -430,12 +392,12 @@
       <workItem from="1638428549184" duration="4599000" />
       <workItem from="1642659927508" duration="4042000" />
       <workItem from="1643082197614" duration="2255000" />
-      <workItem from="1643094707334" duration="30135000" />
+      <workItem from="1643094707334" duration="30330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50397000" />
+    <option name="totallyTimeSpent" value="50592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -937,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/helper/IocHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="39" column="60" lean-forward="true" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+        <state relative-caret-position="167">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
