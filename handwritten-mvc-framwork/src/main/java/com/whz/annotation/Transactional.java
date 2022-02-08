@@ -6,22 +6,9 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 处理方法注解
+ * 事务控制, 只能加在方法上
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface RequestMappering {
-
-    /**
-     * 请求路径
-     * @return
-     */
-    String value() default "";
-
-    /**
-     * 请求方法
-     * @return
-     */
-    RequestMethod method() default RequestMethod.GET;
-
+public @interface Transactional {
 }

@@ -12,6 +12,7 @@
         <module>rpc</module>
         <module>demo1</module>
         <module>handwritten-mvc-framwork</module>
+        <module>handwritten-mvc-example</module>
     </modules>
 
     <!-- 属性 -->
@@ -55,9 +56,10 @@
                 <configuration>
                     <!-- 一般而言，target与source是保持一致的，但是，有时候为了让程序能在其他版本的jdk中运行(对于低版本目标jdk，源代码中需要没有使用低版本jdk中不支持的语法)，会存在target不同于source的情况 -->
                     <!-- 源代码使用的开发版本 -->
-                    <source>1.8</source>
+                    <source>${java.version}</source>
                     <!-- 需要生成的目标class文件的编译版本 -->
-                    <target>1.8</target>
+                    <target>${java.version}</target>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
         </plugins>

@@ -6,11 +6,18 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 依赖注入类
- * @auther whz
- * @create 2022-01-27 13:39
+ * 切面注解
  */
-@Target(ElementType.FIELD)
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Autowired {
+public @interface Aspect {
+    /**
+     * 包名
+     */
+    String pkg() default "";
+
+    /**
+     * 类名
+     */
+    String cls() default "";
 }

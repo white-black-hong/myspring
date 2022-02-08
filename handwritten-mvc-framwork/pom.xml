@@ -11,6 +11,10 @@
 
     <artifactId>handwritten-mvc-framwork</artifactId>
 
+    <properties>
+        <build.path>/Users/apple/Documents/myhome/java_demo/lib/</build.path>
+    </properties>
+
     <dependencies>
         <!-- Servlet -->
         <dependency>
@@ -84,5 +88,39 @@
         </dependency>
     </dependencies>
 
-
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-source-plugin</artifactId>-->
+<!--            </plugin>-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+<!--            </plugin>-->
+<!--            &lt;!&ndash; 把jar包拷贝到指定目录位置 &ndash;&gt;-->
+<!--            <plugin>-->
+<!--                <artifactId>maven-antrun-plugin</artifactId>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>copy</id>-->
+<!--                        <phase>package</phase>-->
+<!--                        <configuration>-->
+<!--                            <tasks>-->
+<!--                                <copy todir="${build.path}">-->
+<!--                                    <fileset dir="${project.build.directory}">-->
+<!--                                        <include name="${project.artifactId}-${project.version}.jar"/>-->
+<!--&lt;!&ndash;                                        <include name="${project.artifactId}-${project.version}.war"/>&ndash;&gt;-->
+<!--                                    </fileset>-->
+<!--                                </copy>-->
+<!--                            </tasks>-->
+<!--                        </configuration>-->
+<!--                        <goals>-->
+<!--                            <goal>run</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
 </project>

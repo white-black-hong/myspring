@@ -21,10 +21,19 @@ public final class ClassHelper {
 
     static {
         // 获取基础包名
+        // basePackage com.whz
         String basePackage = ConfigHelper.getAppBasePackage();
         // 获取基础包名下的所有类
         CLASS_SET = ClassUtil.getClassSet(basePackage);
     }
+
+    /**
+     * 获取基础包名下的所有类
+     */
+    public static Set<Class<?>> getClassSet() {
+        return CLASS_SET;
+    }
+
 
     /**
      * 获取基础包名下所有 Service 类
@@ -53,7 +62,7 @@ public final class ClassHelper {
     }
 
     /**
-     * 获取基础包名下所有Bean类（包括：Contriller、Servece)
+     * 获取基础包名下所有Bean类（包括：Controller、Servece)
      */
     public static Set<Class<?>> getBeanClassSet() {
         Set<Class<?>> beanClassSet = new HashSet<Class<?>>();
