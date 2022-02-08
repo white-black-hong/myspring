@@ -20,8 +20,10 @@ public final class IocHelper {
      */
     static {
         // 遍历bean容器里的所有bean
+        // beanMap {Class@851}Collecting data… -> {UserController@989} {Class@853}Collecting data… -> {UserService$$EnhancerByCGLIB$$5dba8b14@997}Collecting data…
         Map<Class<?>, Object> beanMap = BeanHelper.getBeanMap();
         if (MapUtils.isNotEmpty(beanMap)) {
+            // beanEntry key class com.whz.Controller.UserController value
             for (Map.Entry<Class<?>, Object> beanEntry : beanMap.entrySet()) {
                 // bean的class类
                 Class<?> beanClass = beanEntry.getKey();
@@ -29,6 +31,7 @@ public final class IocHelper {
                 Object beanInstance = beanEntry.getValue();
                 // 暴利反射获取属性
                 // TODO ？？？？？？？？？？？？？？？
+                // getDeclaredFields 获取某个类的所有声明字段，即包括public、private、protected，但是不包括父类的申明字段
                 Field[] beanFields = beanClass.getDeclaredFields();
                 // 遍历bean的属性
                 if (ArrayUtils.isNotEmpty(beanFields)) {
@@ -43,7 +46,6 @@ public final class IocHelper {
                             Object beanFieldInstalce = beanMap.get(beanFieldClass);
                             if (beanFieldInstalce != null) {
                                 ReflectionUtil.setField(beanInstance, beanField, beanFieldInstalce);
-                                //TODO 测试git提交是否成功
                             }
                         }
                     }

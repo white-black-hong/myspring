@@ -19,7 +19,7 @@ public final class BeanHelper {
     static {
         // 获取应用中所有bean
         Set<Class<?>> beanClassSet = ClassHelper.getBeanClassSet();
-        // 将bean实例化，并放入bean容器zhong
+        // 将bean实例化，并放入bean容器中
         for (Class<?> beanClass : beanClassSet) {
             Object obj = ReflectionUtil.newInstance(beanClass);
             BEAN_MAP.put(beanClass, obj);

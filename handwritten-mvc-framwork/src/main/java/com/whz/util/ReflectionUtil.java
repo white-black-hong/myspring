@@ -21,6 +21,11 @@ public final class ReflectionUtil {
     public static Object newInstance(Class<?> cls) {
         Object instance;
         try {
+            // newInstance()和new()区别：
+            //　1、两者创建对象的方式不同，前者是实用类的加载机制，后者则是直接创建一个类：
+            //　2、newInstance创建类是这个类必须已经加载过且已经连接，new创建类是则不需要这个类加载过/
+            //　3、newInstance: 弱类型(GC是回收对象的限制条件很低，容易被回收)、低效率、只能调用无参构造，
+            // new 强类型（GC不会自动回收，只有所有的指向对象的引用被移除是才会被回收，若对象生命周期已经结束，但引用没有被移除，经常会出现内存溢出）
             instance = cls.newInstance();
         } catch (Exception e) {
             LOGGER.error("new instance failure", e);
