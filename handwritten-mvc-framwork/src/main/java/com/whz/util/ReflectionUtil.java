@@ -59,6 +59,9 @@ public final class ReflectionUtil {
 
     /**
      * 设置成员变量的值
+     * @param obj bean实例 {UserController} >> userService = null
+     * @param field Autowired注解
+     * @param value Class类对应的实例
      */
     public static void setField(Object obj, Field field, Object value) {
         try {

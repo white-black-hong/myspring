@@ -62,7 +62,7 @@ public final class ClassHelper {
     }
 
     /**
-     * 获取基础包名下所有Bean类（包括：Controller、Servece)
+     * 获取基础包名下所有Bean类（包括：Controller、Service)
      */
     public static Set<Class<?>> getBeanClassSet() {
         Set<Class<?>> beanClassSet = new HashSet<Class<?>>();

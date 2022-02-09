@@ -1,5 +1,6 @@
-package com.whz.Service;
+package com.whz.Service.Impl;
 
+import com.whz.Service.IUserService;
 import com.whz.annotation.Service;
 import com.whz.annotation.Transactional;
 import com.whz.domain.User;
@@ -14,7 +15,7 @@ import com.whz.helper.DatabaseHelper;
  * @create 2022-02-08 15:44
  */
 @Service
-public class UserService implements IUserService {
+public class UserServiceImpl implements IUserService {
 
     /**
      * 获取所有用户
