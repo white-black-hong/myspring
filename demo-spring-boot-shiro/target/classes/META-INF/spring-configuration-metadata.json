@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.whz.entity.Person",
+      "sourceType": "com.whz.entity.Person"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

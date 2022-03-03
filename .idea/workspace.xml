@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d289ad4-226c-42b0-9b46-b38ec5b77819" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/CustomSessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/DemoSpringBootShiroApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/bean/Permissions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/bean/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/dao/ShiroSessionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/entity/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/filter/MyExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/service/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/shiro/filter/FormFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/shiro/realm/CustomRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/resources/mybatis/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-boot-shiro/src/test/java/com/whz/DemoSpringBootShiroApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/whz/config/MyTestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/whz/entity/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/whz/entity/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/src/main/java/com/whz/entity/God.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/whz/entity/God.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/src/main/java/com/whz/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/whz/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handwritten-mvc-example/src/test/java/IocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/handwritten-mvc-example/src/test/java/IocTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/rpc/target/" />
+    <ignored path="$PROJECT_DIR$/demo1/target/" />
+    <ignored path="$PROJECT_DIR$/handwritten-mvc-framwork/target/" />
+    <ignored path=".idea/vcs.xml" />
+    <ignored path="$PROJECT_DIR$/handwritten-mvc-example/target/" />
+    <ignored mask="*.iml" />
+    <ignored path=".idea/compiler.xml" />
+    <ignored path=".idea/encodings.xml" />
+    <ignored path=".idea/misc.xml" />
+    <ignored path=".idea/uiDesigner.xml" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/demo-spring-boot-shiro/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="java_demo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/mapper/AccountMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/resources/mybatis/AccountMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/service/AccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/service/AccountServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/shiro/realm/CustomRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="854">
+              <caret line="65" selection-start-line="65" selection-end-line="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/DemoSpringBootShiroApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/test/java/com/whz/DemoSpringBootShiroApplicationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>map(</find>
+      <find>First</find>
+      <find>tostring</find>
+      <find>resources.jar</find>
+      <find>diskLoader</find>
+      <find>com.tyshawn.framework.</find>
+      <find>com.tyshawn</find>
+      <find>beanField</find>
+      <find>beanInstance</find>
+      <find>ArrayList</find>
+      <find>userName</find>
+      <find>get</find>
+      <find>FilterRegistrationBean</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>com.whz.</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rpc/src/test/java/IocTest.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-framwork/src/test/java/IocTest.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-example/src/main/java/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-example/src/main/java/com/whz/domain/User.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-example/src/main/java/com/whz/Service/IUserService.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/helper/DatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-example/src/main/java/com/whz/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-example/pom.xml" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-example/src/main/java/com/whz/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/annotation/Autowired.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-framwork/pom.xml" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-example/src/main/resources/handwritten.proprtties.properties" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-example/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-example/src/main/resources/handwritten.properties" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/HelperLoader.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/helper/BeanHelper.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/helper/ClassHelper.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/helper/IocHelper.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/util/ReflectionUtil.java" />
+        <option value="$PROJECT_DIR$/handwritten-mvc-example/src/test/java/IocTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/service/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/filter/MyExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/DemoSpringBootShiroApplication.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/dao/ShiroSessionDao.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/bean/User.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/bean/Role.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/bean/Permissions.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/shiro/CustomRealm.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/shiro/filter/FormFilter.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/CustomSessionManager.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/whz/demo/MyTestConfig.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/whz/entity/Car.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/whz/entity/Driver.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/whz/demo/config/MyTestConfig.java" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/whz/config/MyTestConfig.java" />
+        <option value="$PROJECT_DIR$/demo/src/test/java/com/whz/DemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/entity/Dog.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/entity/Person.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/entity/Account.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/test/java/com/whz/DemoSpringBootShiroApplicationTest.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/mapper/AccountMapper.java" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/resources/mybatis/AccountMapper.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/service/AccountServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Software/Tools/apache-maven-3.5.3" />
+        <option name="usePluginRegistry" value="true" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../Software/Tools/apache-maven-3.5.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="handwritten-mvc-framwork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="handwritten-mvc-framwork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="965" />
+    <option name="y" value="23" />
+    <option name="width" value="1151" />
+    <option name="height" value="1052" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whz" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whz" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whz" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whz" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whz" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whz" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whz" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="realm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-boot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/bean" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.37340426" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo1/src/main/resources/lib" />
+      <recent name="$PROJECT_DIR$/demo1/src/test" />
+      <recent name="$PROJECT_DIR$/demo1/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.whz" />
+      <recent name="com.whz.demo" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.whz.helper" />
+      <recent name="com.whz.annotation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/bean" />
+      <recent name="$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DemoSpringBootShiroApplicationTest.test">
+    <configuration name="ClassLoaderTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whz.classloader.ClassLoaderTest" />
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whz.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whz.classloader.FileUtils" />
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whz.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IocTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IocTest" />
+      <module name="handwrittenmvcexample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="java_demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="java_demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.whz" />
+      <option name="MAIN_CLASS_NAME" value="com.whz.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoSpringBootShiroApplicationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demospringbootshiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.whz" />
+      <option name="MAIN_CLASS_NAME" value="com.whz.DemoSpringBootShiroApplicationTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.whz.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoSpringBootShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demospringbootshiro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.whz.DemoSpringBootShiroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ClassLoaderTest (1)" />
+      <item itemvalue="Application.FileUtils" />
+      <item itemvalue="Application.IocTest" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.DemoSpringBootShiroApplication" />
+      <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.DemoSpringBootShiroApplicationTest.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoSpringBootShiroApplicationTest.test" />
+        <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+        <item itemvalue="Application.IocTest" />
+        <item itemvalue="Application.ClassLoaderTest (1)" />
+        <item itemvalue="Application.FileUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d289ad4-226c-42b0-9b46-b38ec5b77819" name="Default Changelist" comment="" />
+      <created>1638325556287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638325556287</updated>
+      <workItem from="1638325560787" duration="1738000" />
+      <workItem from="1638330215591" duration="7628000" />
+      <workItem from="1638428549184" duration="4599000" />
+      <workItem from="1642659927508" duration="4042000" />
+      <workItem from="1643082197614" duration="2255000" />
+      <workItem from="1643094707334" duration="30330000" />
+      <workItem from="1644299941769" duration="12871000" />
+      <workItem from="1644395671980" duration="1618000" />
+      <workItem from="1644549187661" duration="18000" />
+      <workItem from="1644549519533" duration="3447000" />
+      <workItem from="1644565262569" duration="613000" />
+      <workItem from="1646011162916" duration="28692000" />
+      <workItem from="1646186269916" duration="7938000" />
+    </task>
+    <task id="LOCAL-00001" summary="初步完整代码">
+      <created>1644310029887</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644310029887</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ioc">
+      <created>1644312314805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644312314805</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ioc">
+      <created>1644390037276</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644390037276</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DemoApplicationTests_contextLoads - 2022.03.02 at 10h 02m 43s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2022.03.02 at 10h 04m 13s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2022.03.02 at 10h 08m 13s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2022.03.02 at 10h 24m 02s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2022.03.02 at 10h 24m 28s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2022.03.02 at 10h 24m 52s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoSpringBootShiroApplicationTest_test - 2022.03.02 at 16h 03m 24s.xml">
+      <configuration name="DemoSpringBootShiroApplicationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoSpringBootShiroApplicationTest_test - 2022.03.02 at 16h 03m 46s.xml">
+      <configuration name="DemoSpringBootShiroApplicationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoSpringBootShiroApplicationTest_test - 2022.03.02 at 16h 05m 14s.xml">
+      <configuration name="DemoSpringBootShiroApplicationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoSpringBootShiroApplicationTest_test - 2022.03.02 at 16h 06m 29s.xml">
+      <configuration name="DemoSpringBootShiroApplicationTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="107456000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="965" y="23" width="1151" height="1052" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7502738" visible="true" weight="0.30027053" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.24972618" side_tool="true" weight="0.2984671" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32908705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8520953" visible="true" weight="0.17634173" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49945354" weight="0.26615554" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49958915" weight="0.32858709" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49958915" weight="0.32858709" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010917" side_tool="true" weight="0.4350348" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="10" sideWeight="0.27115858" weight="0.3800657" />
+      <window_info anchor="bottom" id="Log Analyzer" order="11" sideWeight="0.906327" weight="0.32942432" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.16319825" />
+      <window_info anchor="bottom" id="SOQL Query" order="14" sideWeight="0.49958915" weight="0.32942432" />
+      <window_info anchor="bottom" id="LuaCheck" order="15" sideWeight="0.49958915" weight="0.32858709" />
+      <window_info anchor="bottom" id="MyBatis Log" order="16" weight="0.32968238" />
+      <window_info anchor="bottom" id="Messages" order="17" sideWeight="0.48808545" weight="0.35158816" />
+      <window_info anchor="bottom" id="Spring" order="18" />
+      <window_info anchor="bottom" id="Java Enterprise" order="19" sideWeight="0.49958915" weight="0.32858709" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.12110092" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="make" order="6" weight="0.32929292" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32929292" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13853212" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32908705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8520953" visible="true" weight="0.42716318" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49945354" weight="0.27820373" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49958915" weight="0.32942432" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49958915" weight="0.32858709" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010917" side_tool="true" weight="0.4350348" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="10" sideWeight="0.27115858" weight="0.38059703" />
+      <window_info anchor="bottom" id="Log Analyzer" order="11" sideWeight="0.906327" weight="0.32942432" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.21905805" />
+      <window_info anchor="bottom" id="SOQL Query" order="14" sideWeight="0.49958915" weight="0.32942432" />
+      <window_info anchor="bottom" id="LuaCheck" order="15" sideWeight="0.49958915" weight="0.32942432" />
+      <window_info anchor="bottom" id="MyBatis Log" order="16" />
+      <window_info anchor="bottom" id="Messages" order="17" sideWeight="0.48808545" weight="0.35158816" />
+      <window_info anchor="bottom" id="Spring" order="18" />
+      <window_info anchor="bottom" id="Java Enterprise" order="19" sideWeight="0.49958915" weight="0.32942432" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.12110092" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="make" order="6" weight="0.32929292" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32929292" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初步完整代码" />
+    <MESSAGE value="ioc" />
+    <option name="LAST_COMMIT_MESSAGE" value="ioc" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/helper/IocHelper.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/util/ReflectionUtil.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/helper/IocHelper.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/helper/IocHelper.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/helper/ClassHelper.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/helper/ClassHelper.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/filter/MyExceptionHandler.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/shiro/realm/CustomRealm.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/shiro/realm/CustomRealm.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/controller/LoginController.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/controller/LoginController.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/controller/LoginController.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/shiro/filter/FormFilter.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/shiro/filter/FormFilter.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/service/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/io/PrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="471" column="16" selection-start-line="471" selection-start-column="16" selection-end-line="471" selection-end-column="16" />
+          <folding>
+            <element signature="e#15583#15584#0" expanded="true" />
+            <element signature="e#15622#15623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.7.1/shiro-core-1.7.1.jar!/org/apache/shiro/subject/Subject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.7.1/shiro-spring-1.7.1.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+          <folding>
+            <element signature="e#2540#2541#0" expanded="true" />
+            <element signature="e#2580#2581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.7.1/shiro-web-1.7.1.jar!/org/apache/shiro/web/filter/PathMatchingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.7.1/shiro-web-1.7.1.jar!/org/apache/shiro/web/filter/authc/FormAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.7.1/shiro-web-1.7.1.jar!/org/apache/shiro/web/filter/authc/AuthenticatingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="69" column="111" selection-start-line="69" selection-start-column="72" selection-end-line="69" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.7.1/shiro-web-1.7.1.jar!/org/apache/shiro/web/filter/authc/AuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.7.1/shiro-web-1.7.1.jar!/org/apache/shiro/web/filter/AccessControlFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/crazycake/shiro-redis/3.0.0/shiro-redis-3.0.0.jar!/org/crazycake/shiro/RedisCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/crazycake/shiro-redis/3.0.0/shiro-redis-3.0.0.jar!/org/crazycake/shiro/RedisManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/crazycake/shiro-redis/3.0.0/shiro-redis-3.0.0.jar!/org/crazycake/shiro/RedisSessionDAO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
+          <folding>
+            <element signature="e#6943#6944#0" expanded="true" />
+            <element signature="e#6991#6992#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.56/tomcat-embed-core-9.0.56.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.7.1/shiro-web-1.7.1.jar!/org/apache/shiro/web/session/mgt/DefaultWebSessionManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.7.1/shiro-web-1.7.1.jar!/org/apache/shiro/web/servlet/ShiroHttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="78" lean-forward="true" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.15/spring-web-5.3.15.jar!/org/springframework/web/filter/DelegatingFilterProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding>
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.56/tomcat-embed-core-9.0.56.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/CustomSessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="46" column="70" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="125" column="37" lean-forward="true" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/filter/MyExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/shiro/filter/FormFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/whz/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/whz/entity/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/whz/entity/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/whz/config/MyTestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/test/java/com/whz/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/annotation/Aspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/helper/AopHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/proxy/TransactionProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/proxy/ProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/proxy/ProxyChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/proxy/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handwritten-mvc-framwork/src/main/java/com/whz/proxy/AspectProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/dao/ShiroSessionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <folding>
+            <element signature="e#0#1020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/entity/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/entity/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/DemoSpringBootShiroApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/test/java/com/whz/DemoSpringBootShiroApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/mapper/AccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/resources/mybatis/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/service/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.7.1/shiro-core-1.7.1.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.7.1/shiro-core-1.7.1.jar!/org/apache/shiro/realm/CachingRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-boot-shiro/src/main/java/com/whz/shiro/realm/CustomRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="854">
+          <caret line="65" selection-start-line="65" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37340426" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (java_demo)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37340426" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37340426" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37340426" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>handwrittenmvcexample</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37340426" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.projectlombok:lombok:1.18.20</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37340426" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

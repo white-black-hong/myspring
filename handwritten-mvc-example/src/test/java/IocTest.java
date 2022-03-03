@@ -3,6 +3,8 @@ import com.whz.HelperLoader;
 import com.whz.helper.BeanHelper;
 import com.whz.helper.ClassHelper;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -23,17 +25,21 @@ import java.util.Set;
  */
 public class IocTest {
     public static void main(String[] args) throws InterruptedException {
-        HelperLoader.init();
-        Set<Class<?>> beanClass = ClassHelper.getBeanClassSet();
-        System.out.println("\n");
-        System.out.println("beanClass:" + beanClass);
-        Set<Class<?>> classSet = ClassHelper.getClassSet();
-        for (Class<?> aClass : classSet) {
-            System.out.println(aClass);
-        }
-        System.out.println("\n");
-        UserController bean1 = BeanHelper.getBean(UserController.class);
-        System.out.println("bean1:" + bean1);
-//        System.out.println(bean1.userService);
+//        HelperLoader.init();
+//        Set<Class<?>> beanClass = ClassHelper.getBeanClassSet();
+//        System.out.println("\n");
+//        System.out.println("beanClass:" + beanClass);
+//        Set<Class<?>> classSet = ClassHelper.getClassSet();
+//        for (Class<?> aClass : classSet) {
+//            System.out.println(aClass);
+//        }
+//        System.out.println("\n");
+//        UserController bean1 = BeanHelper.getBean(UserController.class);
+//        System.out.println("bean1:" + bean1);
+////        System.out.println(bean1.userService);
+
+//        Integer i1 = 100; Integer i2 = 100; Integer i3 = 200; Integer i4 = 200; System.out.println(i1==i2); System.out.println(i3==i4);
+
+
     }
 }
